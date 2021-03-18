@@ -1,6 +1,4 @@
-package lection2.IO;
-
-import lection1.model.Calculator;
+package lecture2.IO;
 
 import java.io.*;
 

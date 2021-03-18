@@ -1,6 +1,6 @@
-package lection2.IO;
+package lecture2.IO;
 
-import lection1.model.Calculator;
+import lecture1.model.Calculator;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;

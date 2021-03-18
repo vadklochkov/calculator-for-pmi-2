@@ -1,4 +1,4 @@
-package lection2;
+package lecture2;
 
 
 public class App {
