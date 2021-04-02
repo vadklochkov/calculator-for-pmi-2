@@ -38,6 +38,6 @@ class IOTest {
         String fileName = "calculator";
         File file = new File(fileName);
         Calculator calculator = (Calculator) io.readFromFile(file);
-        assertEquals(25.0, calculator.getResult());
+        assertEquals(25.0, calculator.getState());
     }
 }

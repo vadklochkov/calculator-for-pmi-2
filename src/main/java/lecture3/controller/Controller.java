@@ -9,6 +9,7 @@ public class Controller {
     @GetMapping("/state")
     public Double getCalculatorState() {
         Calculator calculator = new Calculator();
-        return calculator.plus(5);
+        calculator.plus(5);
+        return calculator.getState();
     }
 }

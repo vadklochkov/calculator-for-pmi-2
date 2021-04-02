@@ -10,6 +10,7 @@ class CalculatorTest {
     @Test
     void plus() {
         Calculator calculator = new Calculator();
-        assertEquals(2, calculator.plus(2));
+        calculator.plus(2);
+        assertEquals(2, calculator.getState());
     }
 }

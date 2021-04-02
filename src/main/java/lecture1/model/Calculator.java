@@ -3,18 +3,21 @@ package lecture1.model;
 import java.io.Serializable;
 
 public class Calculator implements Serializable {
-    private double result;
+    private double state;
 
     public Calculator() {
-        this.result = 0.0;
+        this.state = 0.0;
     }
 
-    public double plus(double number) {
-        this.result += number;
-        return this.result;
+    public void plus(double number) {
+        this.state += number;
     }
 
-    public double getResult() {
-        return this.result;
+    public double getState() {
+        return this.state;
+    }
+
+    public void minus(double number) {
+        this.state -= number;
     }
 }
